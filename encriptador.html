@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es-419">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Encriptador</title>
+</head>
+
+<body class="body">
+        <section class="alura1">
+                <img class="alurapng" src="imgs/alura.png">
+            <section class="seccionAlura">                
+                <h1 class="tit_1_Encr">Encriptador de texto</h1>
+                <img class="encrip" src="imgs/enc2_90x90.png" >
+            </section>
+        </section>
+
+        <main class="main">  
+            <section class="secMain"> 
+
+                    <p class="minusculas">Solo minusculas y sin acentos.</p>     
+
+                <div class="encriptar">
+                    <textarea name="Encriptar" class="textoEncriptar" autofocus placeholder='"Escriba su TEXTO aquí"' cols="30" rows="18"></textarea>
+                
+                    <textarea name="desEncriptar" class="textoDesencriptar"  disabled cols="30" rows="18">"Su TEXTO aparecerá acá"</textarea>
+                </div>
+
+            </section> 
+
+            <section class="botones">
+
+                <section class="bn_Encriptar">
+                    <img  class="bnEnc" src="imgs/bnEnc.png">                    
+                    <button class="bnEncriptar" onclick="bnEncriptar()">ENCRIPTAR</button>
+                </Section>
+
+                <div class="bn_Desencriptar">
+                    <img class="bnDes" src="imgs/bnDenc.png">
+                    <button class="bnDesencriptar" onclick="bnDesencriptar()">DesEncriptar</button>                  
+                </div>
+                
+                <img src="imgs/detec.png" class="detectives" id="detectives">
+                <p class="ningunMensaje">No se encontro ningún mensaje</p>
+                <button class="bnCopiar">Copiar</button>
+
+            </section>
+
+        </main>
+                <script src="script.js"></script>
+
+</body>
+
+</html>
